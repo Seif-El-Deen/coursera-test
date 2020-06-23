@@ -1,0 +1,70 @@
+body
+{
+    background-color:#fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1
+{
+    text-align: center;
+    border:5px solid white;
+    background-color: cyan;
+    font-size: 175%;
+    margin :5px;
+}
+div div
+{
+    border:5px solid black;
+    background-color: gray;
+    margin: 3px;
+}
+div div p
+{
+    border:2px solid black;
+    padding:2px;
+    background-color: greenyellow;
+    margin:0px;
+    font-size: 175%;
+    float:right;
+    width:fit-content;
+
+}
+div div div
+{
+    border:none;
+    font-size: 125%;
+    clear:right;
+}
+/*for the desktop version*/
+@media(min-width: 992px)
+{
+.desktop
+{
+    width:32.5%;
+    box-sizing: border-box;
+    float: left;
+}
+
+}
+/*for the tablet version*/
+@media(min-width:768px) and (max-width:991px)
+{
+    .desktop
+    {
+        width:48%;
+        box-sizing: border-box;
+        float: left;     
+    }
+div:nth-child(3)
+{
+width:96%;
+}
+ 
+}
+/*for mobile version*/
+/* it have no importance because the three boxes becomes 
+below each others when the size decreases more than or equal 
+767 */ 
+@media(max-width:767px)
+{
+}
